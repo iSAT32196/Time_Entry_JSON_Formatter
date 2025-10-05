@@ -13,7 +13,7 @@ You'll probably need the x64 installer
 
 Once that is installed, just double click "Run_Time_Entry.bat", and it should open a terminal for you to interact with the program with
 
-#To Note
+# To Note
 
 As this is currently, I don't think this is something that would be widely useful, however it does produce a standardized looking document for reporting time. It was made as a way to make my own time look decent when turning it into management. The program is basically to just format text to then submit. 
 
