@@ -1,6 +1,6 @@
 # Time_Entry_JSON_Formatter
 
-#Preconfiguration
+# Preconfiguration
 
 For this to work, you need to have Java's jdk installed. 
 
