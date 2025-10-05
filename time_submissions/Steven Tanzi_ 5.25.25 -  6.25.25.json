@@ -1,0 +1,44 @@
+[
+   {
+       "Employee Name": "Steven Tanzi",
+       "Employee ID": "12345",
+       "Employee Contact Info": "testemail@gmail.com",
+       "Pay Period Start": " 5.25.25",
+       "Pay Period End": " 6.25.25",
+
+       "Hours Worked": "34.0",
+       "Hours Worked Over Schedule": "2.0",
+       "Sick": "6.0",
+       "Vacation": "2.0",
+       "Total Hours": "44.0"
+   },
+
+   {
+       "Date": " 5.26.25",
+           "Hours and Type 0": "8.0 Hours Worked",
+           "Hours and Type 1": "2.0 Hours Worked Over Schedule",
+   },
+
+   {
+       "Date": " 5.27.25",
+           "Hours and Type 0": "8.0 Hours Worked",
+   },
+
+   {
+       "Date": " 5.28.25",
+           "Hours and Type 0": "2.0 Hours Worked",
+           "Hours and Type 1": "6.0 Sick",
+           "Hours and Type 2": "2.0 Vacation",
+   },
+
+   {
+       "Date": " 5.29.25",
+           "Hours and Type 0": "8.0 Hours Worked",
+   },
+
+   {
+       "Date": " 5.30.25",
+           "Hours and Type 0": "8.0 Hours Worked",
+   },
+
+   ]
