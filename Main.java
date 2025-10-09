@@ -83,6 +83,7 @@ public class Main{
         System.out.println("Next up, writing the reported days and times to a file. One moment please.");
         printFile();
         System.out.println("File should be created in the time_submissions folder. Please make sure to double check the file, and that everything in it is correct, before sending to your manager for approval");
+        
 
     }
 
@@ -162,7 +163,7 @@ public class Main{
         for (i = 0; i < typesOfHours.size(); ++i) {
             String type = typesOfHours.get(i);
             double total = totalHours.get(i);
-            filePrinter.println("       \"" + type + "\": \"" + total + "\",");
+            filePrinter.println("       \"" + type + "\": " + total + ",");
         }
 
         double allHoursTotal = 0.0;
@@ -170,7 +171,7 @@ public class Main{
             allHoursTotal += hours;
         }
 
-        filePrinter.println("       \"Total Hours\": \"" + allHoursTotal + "\"");
+        filePrinter.println("       \"Total Hours\": " + allHoursTotal);
 
 
         //End Trying to put all the same types of times together and then total
@@ -193,9 +194,27 @@ public class Main{
                     ArrayList<Hours_type> hoursList = entry.getHoursAndType();
                     for(k = 0; k < hoursList.size(); k++){
                         Hours_type hoursAndType = hoursList.get(k);
-                        filePrinter.println("           \"Hours and Type " + k + "\"" + ": \"" + hoursAndType.getHours() + " " + hoursAndType.getType() + "\",");
+                        filePrinter.print("           \"" + hoursAndType.getType() + "\"" + ": " + hoursAndType.getHours());
+                        
+                        if((k == (hoursList.size() - 1))){
+                            filePrinter.println();
+                        }
+
+                        else{
+                            filePrinter.println(",");
+                        }
+
+                        
                     }
-                    filePrinter.println("   },");
+
+                    if((i == (currentPayPeriod.size() - 1))){
+                        filePrinter.println("   }");
+                    }
+
+                    else{
+                        filePrinter.println("   },");
+                    }
+                    
                     filePrinter.println();
                 }
         }
