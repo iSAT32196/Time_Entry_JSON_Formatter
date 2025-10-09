@@ -25,7 +25,7 @@ After that, you enter a loop of putting in the current day you're reporting time
 
 Once you're done reporting hours for a specific day (by putting in N when it asks if you have more to put in for that day), it'll then ask if there's another day in this pay period you need to input time for, and then repeats the above loop.
 
-Once you're done putting in days and hours, it'll output a .json file into the "time_submissions" folder, using your name and the start and end date of the pay period as the name. It is nut a fully working .json file, as there's some additional or lacking commas in places.
+Once you're done putting in days and hours, it'll output a .json file into the "time_submissions" folder, using your name and the start and end date of the pay period as the name.
 
 ## Notable Problems
 
